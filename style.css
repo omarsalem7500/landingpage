@@ -1,0 +1,166 @@
+img{
+    width:400px;
+    height: auto;
+    border-radius: 16px;;
+}
+
+.header-top {
+    display:flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    gap:16px;
+    font-size: 18px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+.header-info {
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+    align-items: center ;
+    gap:32px;
+    
+}
+
+.Header {
+    background-color:#1F2937 ;
+    flex:1;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.header-info-text {
+    display: flex;
+    align-items:space-around ;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    
+}
+.HeaderTitlestuff {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: 48px;
+    color:#f9faf8;
+    margin:0;
+    padding:0;
+}
+
+.subtext {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color:#e5e7eb;
+
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+h2{
+    text-align: center;
+}
+
+.Quote-container {
+    background-color: #e5e7eb;
+    padding: 64px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    
+    color:#1F2937
+}
+
+.quoter {
+    text-align: end;
+    font-size: 24px;
+}
+
+.Sign-up2{
+    border: 4px solid #e5e7eb;
+    height:40px;
+}
+
+.action-container {
+    display: flex;
+    padding:30px;
+    background-color: #3882F6;
+    margin:50px;
+    border-radius: 20px;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    color: #f9faf8;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.text2 {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
